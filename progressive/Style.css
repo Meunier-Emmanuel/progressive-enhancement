@@ -1,0 +1,107 @@
+
+body {
+    margin: auto;
+    background-image: linear-gradient(rgba(221, 218, 228, 0.61), rgba(165, 167, 204, 0.685)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    width: 90%;
+    height: auto;
+    
+}
+h1 , h2 , h3 , h4 , h5 ,h6 {
+     font-family: 'Girassol', cursive;
+     font-size: 200%;
+     margin-bottom:40px;
+}
+
+p {
+    float: unset;
+    font-family: serif;
+    line-height: 30px;
+    color:rgb(68, 16, 83)
+}
+
+a {
+    font-family: cursive;
+    font-size: 20px;
+}
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: teal;
+}
+blockquote {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 160%;
+    background-color: rgba(240, 227, 227, 0.712);
+    border-left: 3px solid #842e1b;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.villageois {   
+    border-left: 3px solid red;
+}
+.fermier{
+    border-left: 3px solid orange;
+}
+.narrateur {
+    border-left: 3px solid black;
+}
+.titre{
+    background-color: yellow;
+}
+
+.mal,.bien{
+    text-transform: uppercase;
+    color: red;
+ 
+
+}
+
+.bien {
+    color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+ul{
+    list-style-type: none;
+    line-height: 25px;
+    
+}
+ul > li:nth-child(1){
+    background-image:url(pbien.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left:30px;
+}
+ul > li:nth-child(2){
+    background-image:url(pmal.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left:30px;
+}
+ul > li:nth-child(3){
+    background-image:url(chat.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left:30px;
+}
+
+img {
+    float: left;
+    margin: 10px;
+    width: 50%;
+    max-height: 260px;
+
+}
+ 
